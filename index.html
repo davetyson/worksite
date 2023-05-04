@@ -5,9 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Worksite + Dave Tyson</title>
+    <link rel="icon" type="image/x-icon" href="./dt.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <header>
+        <figure>
+            <img src="./worksiteDt.png" alt="The Worksite logo, a plus sign, and a photo of Dave Tyson, web developer.">
+        </figure>
+        <nav>
+            <ul class="flexbox menu wrapper">
+                <li class="menuOpen" tabindex="0"><p class="menuOpenP">Menu</p></li>
+                <li class="menuLink hideMenu"><a href="#projects">Projects</a></li>
+                <li class="menuLink hideMenu"><a href="#background">Background</a></li>
+                <li class="menuLink hideMenu"><a href="#aboveAndBeyond">Above and Beyond</a></li>
+                <li class="menuLink hideMenu"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction" class="wrapper">
+            <div class="introductionFlex flexbox">
+                <figure class="introductionFig">
+                    <img src="./dt.png" alt="Dave Tyson, a web developer sitting in at a table at a food market surrounded by bright neon lights.">
+                </figure>
+                <div class="introductionText flexbox">
+                    <h1>Hello Worksite! I'm Dave Tyson, and I'd like to be your new web developer!</h1>
+
+                    <!-- Intro paragraphs needed here. Talk about your tech stack -->
+                    <p></p>
+                    <p></p>
+                    <h3>- Dave Tyson</h3>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="wrapper">
+            <h2>Projects/Portfolio</h2>
+
+            <!-- This will be where I go over my portfolio and projects. Have an image, some of my portfolio highlights, and my tech stack -->
+
+            <!-- <ul class="flexbox">
+                <li class="studioImg flexbox">
+                    <figure>
+                        <img src="assets/classes2.jpg" alt="noise pollution rock school's studio space with all the different instruments like drums, guitar, bass, and keyboards">
+                    </figure>
+                    <figcaption><em>Noise Pollution Rock School has everything you need to get started. No instrument required!</em></figcaption>
+                </li>
+                <li class="classDetails">
+                    <h3>Class Details</h3>
+                    <p>• Class duration is 45 minutes, Monday-Thursday at both 5pm and 6pm</p>
+                    <p>• 2-4 kids per class learning guitar, bass, drums, and singing</p>
+                    <p>• Kids will be jamming and learning rock and pop songs</p>
+                    <p>• Each 12-week term is $240 per child (to accommodate kids joining mid-term, please contact me directly)</p>
+                    <p>• We offer trial jams and weekend "drop-ins" or "booster lessons" if a student is seeking one-on-one instruction</p>
+                    <p>• Birthday party jams and performances are also available!</p>
+                </li>
+                <li class="classesImg flexbox">
+                    <figure>
+                        <img src="assets/classes1.jpg" alt="matt ellis: rock n roll music instructor">
+                    </figure>
+                    <figcaption><em>Matt Ellis has over 2 decades of performing and recording experience in bands like Anxious Pleasers, The Vapids, Attack in Black, Plasticheads, and more.</em></figcaption>
+                </li>
+                <li class="classesImg flexbox">
+                    <figure>
+                        <img src="assets/classes3.jpg" alt="matt ellis performing and teaching for a large group of families at the playhouse theatre">
+                    </figure>
+                    <figcaption><em>Take the lessons on the road and book Matt for your group event today!</em></figcaption>
+                </li>
+            </ul> -->
+        </section>
+        <section id="background" class="wrapper">
+            <h2>Background</h2>
+
+            <!-- Go over my background, experience, and jobsite work -->
+
+            <!-- <div class="testimonialsFlex flexbox">
+                <figure>
+                    <img src="assets/NPRS-Tongue Badge_Web.png" alt="Noise Pollution Rock School badge logo">
+                </figure>
+                <div class="testimonialsText flexbox">
+                    <p>“I rocked so hard I got rocked out of existence!”</p>
+                    <h3>- Hudson, age 8</h3>
+                    <p>"The kids were vibrating with excitement after class last night!"</p>
+                    <h3>- Jordan, parent</h3>
+                </div>
+            </div> -->
+        </section>
+        <section id="aboveAndBeyond" class="wrapper">
+            <h2>Going Above and Beyond</h2>
+        </section>
+        <section id="contact" class="wrapper">
+            <h2>Contact</h2>
+            <p class="contactInstructions">If I seem like a good fit to be your next web developer, I'd love to meet you for an interview! Please use the contact form or information below to get in touch</p>
+            <p class="contactBoxTitle"><strong>Dave Tyson</strong></p>
+            <div class="contactBlock flexbox">
+                <div class="contactIconBox flexbox">
+                    <i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Address</span>
+                    <p>14 Murray St E, Hamilton, ON</p>
+                </div>
+                <div class="contactIconBox flexbox">
+                    <i class="fa fa-phone" aria-hidden="true"></i><span class="sr-only">Phone</span>
+                    <p>416.809.9445</p>
+                </div>
+                <div class="contactIconBox flexbox">
+                    <i class="fa fa-envelope-open" aria-hidden="true"></i><span class="sr-only">Email</span>
+                    <p>davetysonbass@gmail.com</p>
+                </div>
+                <a href="" target="_blank">
+                    <div class="contactIconBox flexbox">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i><span class="sr-only">Dave Tyson on LinkedIn - this link will open in a new tab</span>
+                        <p>Dave Tyson on LinkedIn</p>
+                    </div>
+                </a>
+            </div>
+            <form method="post" name="emailContactForm" action="https://formspree.io/f/mbjekebq">
+                <fieldset>
+                    <div class="nameEmail flexbox">
+                        <label class="sr-only" for="name">Name</label>
+                        <input id="name" type="name" name="name" placeholder="Name">
+                        <label class="sr-only" for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Email">
+                    </div>
+                    <label class="sr-only" for="message">Message</label>
+                    <textarea id="message" type="message" name="message" placeholder="Message" autocomplete="off"></textarea>
+                </fieldset>
+                <button type="submit" value="Send Form">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="wrapper footerP">© Dave Tyson</p>
+    </footer>
     <script src="./script.js"></script>
 </body>
 </html>
